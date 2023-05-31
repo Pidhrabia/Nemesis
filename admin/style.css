@@ -1,0 +1,56 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    font-family: 'mulish';
+}
+
+.nemesis_tm_contact {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    height: 400px;
+}
+
+.fields {
+    max-width: 800px;
+    width: 100%;
+    text-align: center;
+    margin: auto auto;
+}
+
+.fields ul{
+    list-style: none;
+}
+
+.fields h4 a{
+    text-decoration: none;
+    color: black;
+}
+
+.fields h3{
+    font-size: 20px;
+    color: red;
+    margin: 5px auto;
+}
+
+.fields input{
+    max-width: 500px;
+    width: 100%;
+    font-size: 20px;
+    padding: 5px 10px;
+    margin: 5px auto;
+}
+
+.fields button{
+    max-width: 525px;
+    width: 100%;
+    font-size: 20px;
+    padding: 5px 10px;
+    margin: 5px auto;
+    border: none;
+    background-color: black;
+    color: white;
+}

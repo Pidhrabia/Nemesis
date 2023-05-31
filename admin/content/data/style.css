@@ -1,0 +1,140 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.portfolio{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    height: 400px;
+}
+
+.portfolio__content{
+    max-width: 800px;
+    width: 100%;
+    text-align: center;
+    margin: 50px auto;
+}
+
+.portfolio__content h2{
+    font-size: 32px;
+    font-weight: 300;
+    text-align: center;
+    padding: 0px 25px;
+    margin-bottom: 10px;
+}
+
+.portfolio__content input, textarea{
+    font-size: 18px;
+    font-weight: 300;
+    padding: 10px;
+    max-width: 400px;
+    width: 100%;
+    margin: 15px 0px 10px 0px;
+    border: none;
+    outline: 1px solid black;
+    resize: none;
+}
+
+.portfolio__content textarea{
+    height: 200px;
+}
+
+.portfolio__content button{
+    border: 1px solid black;
+    margin-top: 20px;
+    max-width: 420px;
+    width: 100%;
+    height: 60px;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+    border: 0px;
+    transition: 1s ease;
+    margin-bottom: 20px;
+}
+
+.portfolio__content button:hover{
+    background-color: rgb(0, 0, 0);
+    transform: scale(1.05);
+    transition: 1s ease;
+}
+
+.blog{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    height: 400px;
+}
+
+.blog__content{
+    max-width: 800px;
+    width: 100%;
+    text-align: center;
+    margin: 50px auto;
+}
+
+.blog__content h2{
+    font-size: 32px;
+    font-weight: 300;
+    text-align: center;
+    padding: 0px 25px;
+    margin-bottom: 10px;
+}
+
+.blog__content input, textarea{
+    font-size: 18px;
+    font-weight: 300;
+    padding: 10px;
+    max-width: 400px;
+    width: 100%;
+    margin: 15px 0px 10px 0px;
+    border: none;
+    outline: 1px solid black;
+    resize: none;
+}
+
+.blog__content textarea{
+    height: 200px;
+}
+
+.blog__content button{
+    border: 1px solid black;
+    margin-top: 20px;
+    max-width: 420px;
+    width: 100%;
+    height: 60px;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+    border: 0px;
+    transition: 1s ease;
+    margin-bottom: 20px;
+}
+
+.blog__content button:hover{
+    background-color: rgb(0, 0, 0);
+    transform: scale(1.05);
+    transition: 1s ease;
+}
+
+
+.upload_file{
+    left: 50%;
+    display: flex;
+    justify-content: center;
+    max-width: 420px;
+    width: 100%;
+}
+
+.file::-webkit-file-upload-button{
+    color: white;
+    background-color: black;
+    padding: 3px 5px;
+    margin-right: 10px;
+    outline: none;
+    border: 0px;
+}
